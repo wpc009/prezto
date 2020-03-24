@@ -22,7 +22,7 @@ setopt BEEP
 #
 
 # Treat these characters as part of a word.
-WORDCHARS='*?_-.[]~&;!#$%^(){}<>'
+WORDCHARS='_'
 
 # Use human-friendly identifiers.
 zmodload zsh/terminfo

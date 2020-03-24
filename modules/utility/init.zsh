@@ -17,6 +17,9 @@ setopt CORRECT
 # Aliases
 #
 
+#Android
+alias fb='fastboot'
+
 # Disable correction.
 alias ack='nocorrect ack'
 alias cd='nocorrect cd'
@@ -32,6 +35,12 @@ alias mkdir='nocorrect mkdir'
 alias mv='nocorrect mv'
 alias mysql='nocorrect mysql'
 alias rm='nocorrect rm'
+alias cp='rsync --progress'
+alias duh='du -h -d 1 | sort -g'
+alias curlP='cat ~/.oh-my-zsh/profiles/curl_profile.conf | curl -w @-'
+alias trash='rmtrash'
+alias lv="logcat-color -v time --silent"
+alias lva="logcat-color -v time"
 
 # Disable globbing.
 alias bower='noglob bower'
