@@ -78,12 +78,14 @@ alias dkCup='docker container update'
 alias dkCw='docker container wait'
 
 ## Image (I)
+
 alias dkI='docker image'
 alias dkIb='docker image build'
 alias dkIh='docker image history'
 alias dkIim='docker image import'
 alias dkIin='docker image inspect'
-alias dkIls='docker image ls'
+alias dkIls='docker image ls --format "{{ .ID }} {{ .Repository }}:{{ .Tag }}"'
+# alias dkIls='docker image ls'
 alias dkIpr='docker image prune'
 alias dkIpl='docker image pull'
 alias dkIph='docker image push'

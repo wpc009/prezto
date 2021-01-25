@@ -13,4 +13,3 @@ fi
 # Customize to your needs...
 export PATH="$HOME/.krew/bin:$PATH"
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-
